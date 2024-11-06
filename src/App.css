@@ -36,3 +36,65 @@
 .text-iron {
   color: #0a035a;
 }
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: column; /* or row if you want them in a row */
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 15px;
+  padding: 20px;
+  display: flex;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.card-img {
+  height: 200px;
+  width: 300px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15px;
+  text-align: start;
+}
+
+.card-header {
+  margin-top: -2px;
+}
+
+.card-description {
+  margin: -5px 0;
+}
+
+.btn {
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn-premium,
+.btn-all-incl {
+  background-color: #2214c5;
+  color: white;
+  margin-right: 5px;
+}
+
+.btn-deal {
+  background-color: #0d7e1c;
+}
+
+.btn-delete {
+  margin-top: 25px;
+  background-color: #737377;
+  border: none;
+  font-size: 18px;
+  padding: 8px;
+}
